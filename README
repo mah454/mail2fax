@@ -1,0 +1,12 @@
+### Mail2Fax Bash script
+
+this program find fax numbers from body of message's and split this message and attachment file to "MESSAGE" Folder 
+then send attachment to fax number .
+
+1) Get mail with fetchmail . (Note : Configure fetchmail.rc)
+2) make new user : 
+	useradd -mc "mail2fax" -s /bin/bash -d /var/spool/mail2fax mail2fax 
+3) copy script to mail2fax home directory 
+4) configure crontab for automatic send to fax process 
+
+
