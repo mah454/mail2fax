@@ -4,7 +4,7 @@
 
 ### Variables ###
 
-home=/home/fax
+home=/var/spool/mail2fax
 user=$(whoami)
 mailbox=/var/mail/$user
 
